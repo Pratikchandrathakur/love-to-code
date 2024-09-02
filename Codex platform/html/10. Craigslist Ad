@@ -1,0 +1,59 @@
+Instructions
+Craigslist is a website that looks straight out of the 90s. That's because it has stayed roughly the same!
+
+It was started by Craig Newark in 1995 as an email list for his San Francisco friends. Today, the company does over $1 billion a year in revenue while operating from a tiny office. 🤯
+
+Here’s a screenshot of a Craigslist ad:
+<img src="https://www.codedex.io/images/html/challenge-09-craigslist-ad.png">
+Craigslist ad for a used Didgeridoo
+
+Craig needs some help with the codebase. Can you help him clean up some HTML using what you learned about comments and formatting?
+
+Here’s the code:
+
+<!DOCTYPE html>
+<html>
+  <head>
+     <!-- Hi, it’s Craig! Can you add “For Sale” in the title below? -->
+    <title>Didgeridoo. Needs work</title>
+  </head>
+  <body>
+    <!-- Add some comments below to document what each line means! -->
+    <h2>Didgeridoo. Needs work</h2>
+    <img src="https://i.imgur.com/TrXO7Sa.png" width="250">
+    <p>Australian Aboriginal Didgeridoo. Needs work. Free to good home</p>
+
+    <!-- Add the bullet point in the picture and then uncomment the code below! -->
+    <!-- <ul>
+      <li>Something should go here</li>
+    </ul> -->
+  </body>
+</html>
+
+Create a craigslist_ad.html file and copy and paste this in. Don't touch anything yet!
+
+Run this file to see what it looks like.
+
+Now, edit the HTML based on the comments and help Craig finish the code! 🧹
+
+<!-- Write code below 💖 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+     <!-- Hi, it’s Craig! Can you add “For Sale” in the title below? -->
+    <title>Didgeridoo. Needs work</title>
+  </head>
+  <body>
+    <!-- Appropriate heading and image aligned for ad -->
+    <h2>Didgeridoo. Needs work</h2>
+    <img src="https://i.imgur.com/TrXO7Sa.png" width="250">
+    <p>Australian Aboriginal Didgeridoo. Needs work. Free to good home</p>
+
+    <!-- Add the bullet point in the picture and then uncomment the code below! -->
+    <ul>
+      <li>do NOT contact me with unsolicited services or offers</li>
+    </ul>
+  </body>
+</html>
+
