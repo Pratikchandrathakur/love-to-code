@@ -1,0 +1,31 @@
+<!--Instructions
+Let's add some form validation to the sign_up.html file we created in the last exercise.
+
+Make the <input> elements for the username, email, and password required.
+Give the username and password inputs a minlength of "4" and a maxlength of "10".
+After finishing, try to submit the form with incomplete or incorrect inputs.  -->
+
+
+
+<!-- Write code below 💖 -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up v1</title>
+  </head>
+  <body>
+    <form action="" method="">
+      <h2>Sign Up</h2>
+      <label for="username">Username:</label>
+      <input type="text" minlength="4" maxlength="10" required /><br/><br/>
+      <label for="email">Email:</label>
+      <input type="email" required /><br/><br/>
+      <label for="password" >Password:</label>
+      <input type="password" minlength="4" maxlength="10" required /><br/><br/>
+      <label for="confirm_password">Confirm password:</label>
+      <input type="password" minlength="4" maxlength="10" required/><br/><br/>
+      <input type="submit" value="Submit">
+      </form>
+      
+  </body>
+</html>
