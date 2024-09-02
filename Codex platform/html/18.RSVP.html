@@ -1,0 +1,87 @@
+<!--Let's use these new inputs to write an RSVP for a special occasion! 🎈
+
+Create a new file called rsvp.html.
+
+Copy/paste the following code:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>RSVP</title>
+</head>
+<body>
+  <form>
+    <!-- Form code here -->
+  </form>
+</body>
+</html>
+
+Note: Feel free to visit Chapter 2 on HTML structure for a refresher on this structural code.
+
+Next, replace the comment in the <body> with the following <form> element.
+
+Then, paste the following in between the <form> tags:
+
+<form>
+  <h2>RSVP</h2>
+  <p>Come and make our special day more awesome!</p>
+  <br>
+  First Name: <!-- Text input here -->
+  <br><br>
+  Last Name: <!-- Text input here -->
+  <br><br>
+  Are you coming?<br>
+  <!-- 3 radio inputs here -->
+  <br><br>
+  Any dietary restrictions for main course?<br>
+  <!-- 3 or 5 checkbox inputs here -->
+  <br><br>
+  <!-- Submit input here -->
+ </form>
+
+Replace the comments with the following <input> elements, using the appropriate type attributes:
+
+Two text inputs for the first and last name.
+Three radio buttons labeled as "Yes", "No", and "Maybe" (with a matching name of "invite").
+Either three or five checkbox options to specify dietary restrictions like "Vegetarian" and "Gluten-free".
+An input to submit the form.  -->
+
+<!-- Write code below 💖 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>RSVP</title>
+</head>
+<body>
+  <form>
+  <h2>RSVP</h2>
+  <p>Come and make our special day more awesome!</p>
+  <br>
+  First Name: <input type="text" required>
+  <br><br>
+  Last Name: <input type="text" required>
+  <br><br>
+  Are you coming?<br>
+  <input type="radio" value="Yes" name="option">
+  <label for="yes">Yes</label>
+  <input type="radio" value="No" name="option">
+  <label for="no">No</label>
+  <input type="radio" value="maybe" name="option">
+  <label for="maybe">if weather is okay</label>
+  <br><br>
+  Any dietary restrictions for main course?<br>
+  <input type="checkbox" value="Vegetarian" name="option2">
+  <label for="Vegetarian">Vegetarian</label>
+  <input type="checkbox" value="Gluten-free" name="option2">
+  <label for="Gluten-free">Gluten-free</label>
+  <input type="checkbox" value="Non-Veg" name="option2">
+  <label for="Non-Veg">Non-Veg</label>
+  <input type="checkbox" value="Salad and juice" name="option2">
+  <label for="Salad and juice">Salad and juice</label>
+  
+  <br><br>
+  <input type="submit" value="Submit">
+ </form>
+</body>
+</html>
