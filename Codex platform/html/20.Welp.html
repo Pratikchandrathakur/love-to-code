@@ -1,0 +1,64 @@
+<!-- Instructions
+For the last exercise, let's build a form page for a new website called "Welp!"
+
+It's a review site like Yelp, which is well-known for its reviews of restaurants by foodies. Instead of food reviews, Welp can be about reviewing anything from books to film to public parks!
+
+Create a new file called welp.html.
+
+After setting up the file, add a <form> element in the <body>.
+
+Let's include this information (in order):
+
+The reviewer's name (first, last, nickname, doesn't matter).*
+The name of what they're reviewing (film name, book title, etc.).*
+Three "radio" buttons that ask if the reviewer would try/visit again.
+An <input> to offer a rating (1 out of 5).*
+A <textarea> element for the reviewer to write comments (no more than 250 characters).
+An input type of "submit" that says "Submit Review".
+The inputs with * are required.
+
+Make sure to add labels and validate the inputs! -->
+
+
+
+<!-- Write code below 💖 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yelp</title>
+  </head>
+  <body>
+    <form>
+  <h2>Your Reviews</h2>
+  <!-- Customer information gathering -->
+  <label for="firstname" min-length="4" max-length="10">Firstname:</label>
+  <input type="text" required><br/>
+  <label for="lastname" min-length="4" max-length="10">Lastname:</label>
+  <input type="text" required><br/>
+  <label for="nickname"min-length="4" max-length="10">Nickname:</label>
+  <input type="text" ><br/>
+  <label for="product_name" min-length="8" max-length="18">Product Name:</label>
+  <input type="text" required>
+  <!-- revisit question for customer loyalty check -->
+  <h4>Would we see you again!</h4>
+  <input type="radio" name="question" required>
+  <label for="question" >sure</label>
+  <input type="radio" name="question" required>
+  <label for="question" >Not sure</label>
+  <input type="radio" name="question" required>
+  <label for="question" >may be</label><br/><br/>
+
+  <!--rating to the product  -->
+  <h4>Your reviews about product(required)</h4><br/>
+  <input type="range" min="1" max="5" required>
+  <br><br>
+    <label for="comments">Comments and suggestions:</label>
+  <br>
+  <textarea maxlength="250">
+    </textarea>
+  <br><br>
+  <input type="submit" value="Submit Review">
+</form>
+  </body>
+</html>
