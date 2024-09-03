@@ -1,0 +1,106 @@
+<!--Exercise
+
+10. Wallpaper
+# BG Color
+Let's return to the concept of colors in CSS!
+
+In the first exercise, we learned to use the color property to add color to our text. But that's not all that we can do with colors. We can "paint" the backgrounds of our page elements with colors, too!
+
+For this, we use the background-color property!
+
+Any of the ways to apply color, that we already learned about, can be applied to this property:
+
+/* With named colors */
+div {
+ background-color: red;
+}
+
+/* With rgb() function */
+div {
+ background-color: rgb(0, 0, 255);
+}
+
+/* With hexadecimals */
+div {
+ background-color: #ffff00;
+}
+
+Assuming that each div in the example above is 250px-wide and 250px-tall, this is what it would look like rendered:
+
+Rendered background colors
+
+# BG Image
+Colors aren't the only thing we can use as a background for our elements. We can also use images!
+
+For instance, check out this division element with a header:
+
+Rendered page with a heading and no background image.
+
+Pretty barebones, right? Let's add a background of Brooklyn, NY (where Codédex is based) by adding the background-image property!
+
+div {
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/10/19/13/city-skyline-2626619_960_720.jpg');
+}
+
+For the value of the background-image property, we use a special url() function that accepts a URL or file path to an image. As long this is a valid path, the image should appear, like so:
+
+Rendered page with a heading and background image.
+
+Sometimes, the original size of the image might be too large for the background. This can be helped with the background-size property.
+
+background-size: contain;
+
+This property will scale the image down to fit inside its container. With contain, the image will not be cropped; the cover value will crop the image.
+
+Background images may repeat if the container is larger than the image. To prevent this, and have only one image in the container, use the background-repeat property, followed by the no-repeat option:
+
+background-repeat: no-repeat;
+
+Instructions
+Let's practice using backgrounds!
+
+Begin by pasting the following in an index.html file:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="styles.css" rel="stylesheet" />
+  <title>Wallpaper</title>
+</head>
+<body>
+ <div id="outer">
+    <div id="inner">
+    
+    </div>
+ </div>
+</body>
+</html>
+
+Next, let's open the styles.css file and do the following:
+
+Select the <div> division element with an #outer id and apply:
+A width and height of 500px.
+A background-color set to your favorite color (it can be named, a hexadecimal, or RGB).
+Select the <div> division element with an #inner id and apply:
+A width and height of 400px.
+A background-image that uses a picture of your favorite animal.
+Note: If needed, use the background-size and background-repeat properties to fit the image into the <div> division element.
+
+Save the files and check out the rendered result by opening the index.html file!  -->
+
+<!-- Write code below 💖 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="styles.css" rel="stylesheet" />
+  <title>Wallpaper</title>
+</head>
+<body>
+ <div id="outer">
+    <div id="inner">
+    Welcome to Brooklyn,NY
+    </div>
+ </div>
+</body>
+</html>
