@@ -1,0 +1,19 @@
+#outer{
+  width:500px;
+  height:500px;
+  background-color:rgb(0,200,23);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#inner{
+  font-family:cursive;
+  font-weight:700;
+  text-align:center;
+  width:400px;
+  height:400px;
+  background-image:url('https://cdn.pixabay.com/photo/2017/08/10/19/13/city-skyline-2626619_960_720.jpg');
+  background-size:contain;
+  background-repeat: no-repeat;
+}
