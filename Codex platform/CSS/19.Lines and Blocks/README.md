@@ -40,7 +40,7 @@ Rendered div element (red), followed by an paragraph element
 Inline elements only take up as much space as needed, and other elements may appear beside them! The <a> anchor element is a very popular inline element because links are always being used within blocks of text (e.g., a Wikipedia article with lots of links to other places).
 
 In the previous example, if we wrap “Wikipedia” into a link with the <a> anchor element (within the <p> paragraph element):
-
+<img src="https://www.codedex.io/images/css/exercise-19-rendered-block-elements-with-link.png">
 Red div element, followed by a paragraph element that contains an inline link.
 
 The "Wikipedia" text becomes a link that stays in line with the parent <p> element.
@@ -54,7 +54,7 @@ a {
 Note: Unlike block elements, inline elements cannot change their width or height properties.
 
 When we change the default display of the <a> element from inline to block, this is the result:
-
+<img src="https://www.codedex.io/images/css/exercise-19-rendered-elements-with-link-block.png">
 Red div element, followed by a paragraph element that contains a link displayed as a block.
 
 There is one other display property to explore…inline-block!
@@ -78,7 +78,9 @@ For example:
   background-color: lightgreen;
 }
 ````
-This renders something like the following:
+
+This renders something like the following:<br><br>
+<img src="https://www.codedex.io/images/css/exercise-19-display-comparisons.png">
 
 A red div element set to the default block display; another div set to inline; another green div set to inline-block
 
