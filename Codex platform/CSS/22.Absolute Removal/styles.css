@@ -9,6 +9,8 @@ header {
   background-color: #492b7c;
   color: #fff;
   border-bottom: 2px solid #313131;
+  position:absolute;
+  width:100%;
 }
 
 header,
@@ -85,7 +87,7 @@ form {
   border: 2px solid darkred;
   border-radius: 5px;
   width: 25%;
-  position:relative;
+  position:absolute;
   top:10px;
   left:5%;
   
