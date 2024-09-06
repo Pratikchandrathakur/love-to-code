@@ -17,7 +17,9 @@ hr {
 }
 #gallery-container p{
   position:sticky;
-  z-index:1;
+  top:50%;
+  text-align:center;
+  color:darkcyan;
 }
 #gallery-header {
   padding-bottom: 6px;
@@ -36,11 +38,15 @@ hr {
   font-weight: 800;
   position:absolute;
 }
-h1{
+#gallery-container>h1{
   position:fixed;
-  top:20px;
+  top:80%;
+  left:10%;
+  text-align:center;
   display:inline-block;
   color:coral;
+  z-index:1;
+
 }
 
 #images{
@@ -48,13 +54,14 @@ h1{
 }
 .gallery-item{
   padding:0;
+  margin-top:5px;
   margin-bottom:10%;
-
   width:400px;
   height:400px;
   border:solid 2px grey;
   background-size:cover;
   border-radius:12px;
   background-repeat:no-repeat;
+  opacity:0.8;
 
 }
