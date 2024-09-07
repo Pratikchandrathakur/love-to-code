@@ -1,3 +1,3 @@
-Check this pdf and use this repo for practise
-1. fork this repo then folow the pdf.
- https://github.com/Pratikchandrathakur/Centralized-repository-shipping_calculations
+## Check this pdf and here is the final repo after mastering the UI part:
+ https://github.com/Pratikchandrathakur/GithubUI-Mastery-Project-1
+
