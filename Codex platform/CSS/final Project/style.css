@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+header{
+  font-size: 30px;
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  padding: 20px 10%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index:100;
+}
+body{
+  /* background-image: linear-gradient(to bottom right, #FFD3A5, #FD6585); */
+  background: #081b29;
+  color: #ededed;
+}
+#head{
+  font-size: 25px;
+  color:#ededed ;
+  text-decoration: none;
+  font-weight: 600;
+}
+nav a{
+  font-size: 18px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left :35px;
+  transition: 0.3s;
+}
+
+nav a:hover{
+  color:#00abf0
+}
+#About{
+  height: 100vh;
+  background: url('https://avatars.githubusercontent.com/u/73338231?v=4 width');
+  background-size:500px;
+  background-repeat: no-repeat;
+  background-position: right 50%;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+.about-content{
+  background: transparent;
+  max-width: 700px;
+  text-align: justify;
+
+}
+.about-content h1{
+  font-size: 45px;
+  font-weight: 700;
+  line-height:1.4;
+}
+.about-content h3{
+  font-size: 30px;
+  font-weight: 700;
+  color: #00abf0;
+}
+.about-content p{
+  font-size: 16px;
+  margin: 20px 0 40px;
+}
+.about-content .button-box{
+  width:49.3%;
+  height:7%;
+  display: flex;
+  justify-content: space-between;
+}
+.button-box a{
+  width: 150px;
+  height: 100%;
+  background: #00abf0;
+  border: 2px solid #00abf0;
+  text-decoration: none;
+  padding: 2px;
+  border-radius: 8px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+color: #081b29;
+font-size: 19px;
+font-weight: 600;
+}
+.button-box a:hover{
+  background-color: #081b29;
+  color: #00abf0;
+}
+
+.button-box a:nth-child(2){
+  background: transparent;
+  color: #00abf0;
+  transition: 0.3s;
+}
+.button-box a:nth-child(2):hover{
+  background-color: #00abf0;
+  color: #081b29;
+}
+
+#Projects{
+  height: 100vh;
+  padding: 0 10%;
+
+}
+#Projects h2{
+  font-size: 30px;
+  position: relative;
+  top:55px;
+  left:15px;
+}
+#Projects .Projects{
+  display:flex;
+  margin: 10vh 0;
+}
+.Projects .project{
+  padding: 0 20px;
+}
+#Contact{
+  height: 100vh;
+  padding: 0 10%;
+
+}
+#Contact h2{
+  font-size: 30px;
+  position: relative;
+  top:55px;
+  left:15px;
+}
+#Contact form{
+
+  margin: 8vh 10vw;
+}
+
+#Contact #intro{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  border: solid #ededed 3px ;
+  border-radius: 4px;
+}
+#Contact #intro input{
+  font-size: 15px;
+  width: 480px;
+  border-radius: 5px;
+}
+
+  #Contact #message{
+    font-size: 20px;
+    font-weight: 700;
+    border: solid #ededed 3px ;
+    border-radius: 4px;
+  }
+  #Contact #message textarea{
+    margin-left: 20%;
+    border-radius: 4px;
+    width: 600px;
+  }
+  #Contact #btn{
+    font-size: 20px;
+    font-weight: 700;
+    border: solid #ededed 3px ;
+  border-radius: 4px;
+  height:12vh;
+  }
+  
+
+  #Contact legend{
+    font-size:30px;
+    text-align: center;
+    color: #00abf0;
+
+  }
+
+  #submit_btn{
+    font-size: 20px;
+    padding: 0 5px;
+    font-weight: 500;
+    background-color:#00abf0;
+    border: solid #00abf0 2px;
+    border-radius: 5px;
+    margin-left:45%;
+    cursor: pointer;
+  }
+  #submit_btn:hover{
+    background-color:#081b29;
+    color:#00abf0;
+  }
+  
+
+footer #author{
+  margin-left:40vw;
+}
+footer #copyright{
+  margin-left:45vw;
+} 
+
+
+
+
