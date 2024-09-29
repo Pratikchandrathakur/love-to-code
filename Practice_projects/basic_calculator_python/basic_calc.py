@@ -15,3 +15,5 @@ elif(operator_select == "**" or operator_select == "^"):
   print(number1**number2);
 elif(operator_select == "%"):
   print(number1%number2);
+else:
+  print("Unknown Operator")
