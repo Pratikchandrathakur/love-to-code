@@ -15,10 +15,12 @@ def welcome(name):
   elif choose==5:
     return "🍪 Cookie "
   else:
-    return "Please enter valid input"
+    return "null"
 
 ordering=welcome(person)
 def get_item(order):
-  print(f"Here is your ordered {order}")
-
+  if(order!="null"):
+    print(f"Here is your ordered {order}")
+  else:
+    print("Please input a valid input")
 get_item(ordering)
