@@ -12,7 +12,7 @@ const phone = {
 
 phone.ringtone();
 // Output: Ring, ring! Ring, ring! 📲
-// 2nd way
+// 2nd way -Most preffered way.
 const phone1 = {
   model: "Android",
   brand: "Samsung",
