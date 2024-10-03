@@ -1,5 +1,5 @@
 // Write code below 💖
-
+// 1st way
 const phone = {
   model: "iPhone 11 Pro Max",
   brand: "Apple",
@@ -12,7 +12,7 @@ const phone = {
 
 phone.ringtone();
 // Output: Ring, ring! Ring, ring! 📲
-
+// 2nd way
 const phone1 = {
   model: "Android",
   brand: "Samsung",
