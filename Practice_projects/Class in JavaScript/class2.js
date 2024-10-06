@@ -5,7 +5,7 @@ class Product{
     this.Price=price;
   }
   displayProduct(){  // -- these methods are specially defined to do certain task with the properties defined in constructor.
-    console.log(`Product : ${this.Product} \nPrice: $${this.Price}`)
+    console.log(`Product : ${this.Product} \nPrice: $${this.Price.toFixed(2)}`)
   }
   calculateSaleTax(saleTax=0.08){
     return this.Price+(this.Price)*saleTax  
@@ -18,4 +18,4 @@ const product3=new Product("Underwear",60);
 // Checking for product 3:
 product3.displayProduct();
 total=product3.calculateSaleTax()
-console.log(`The (total price with tax): $${total}`)
+console.log(`The (total price with tax): $${total.toFixed(2)}`)
