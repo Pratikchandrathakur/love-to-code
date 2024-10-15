@@ -1,0 +1,20 @@
+/* Write code below 💖 */
+body {
+  background-color: #d7ba19;
+}
+
+#wrapper {
+  width: 75%;
+  margin: auto;
+}
+
+div {
+  width: 75%;
+  margin: auto;
+}
+
+h1 {
+  display: inline;
+  position: relative;
+  bottom: 4em;
+}
