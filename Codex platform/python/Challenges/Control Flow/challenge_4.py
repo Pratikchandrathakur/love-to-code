@@ -1,6 +1,20 @@
-# Write code below 💖
-# Season of the year.
+# 🗓️ Seasons of the Year -->Medium
+# Ah, the four seasons in the year — winter, spring, summer, or fall; all you have to do is call!
 
+# Ask the user the month number using the input() function.
+
+# Check for the four seasons using an if/elif/else statement and logical operators:
+
+# month is 1, 2, 3, print 'Winter 🌨️'
+# month is 4, 5, 6, print 'Spring 🌱'
+# month is 7, 8, 9, print 'Summer 🌻'
+# month is 10, 11, 12, print 'Autumn 🍂'
+# Everything else is 'Invalid'
+# Logical operators in Python include the and and or keywords. Which one should you use?
+
+
+
+# Write code below 💖
 month=int(input("Enter the months number you want to check season for "))
 
 if month==1 or month==2 or month==3:
