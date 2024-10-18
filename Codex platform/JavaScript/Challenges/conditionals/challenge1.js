@@ -12,7 +12,7 @@
 
 // Write code below 💖
 
-let wakeUp=5;
+const wakeUp=5;
 
 if (wakeUp <8){
   console.log("Early bird gets the worm!  🌅")
