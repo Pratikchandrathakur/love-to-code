@@ -14,7 +14,7 @@
 
 // Write code below 💖
 
-let day=5
+constday=5
 
 if(day<5){
   console.log("Not Friday, yet!")
