@@ -10,3 +10,15 @@
 // wakeUp is < 8, log "Early bird gets the worm! 🌅"
 // Otherwise, log "But who wants the worm? 🌃"
 
+// Write code below 💖
+
+let wakeUp=5;
+
+if (wakeUp <8){
+  console.log("Early bird gets the worm!  🌅")
+}
+else{
+  console.log("But who wants the worm? 🌃");
+}
+
+
