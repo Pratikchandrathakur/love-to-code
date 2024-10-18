@@ -14,7 +14,7 @@
 
 // Write code below 💖
 
-let rating=2;
+const rating=2;
 
 if(rating===1){
   console.log("🌟 is worth walking to.")
