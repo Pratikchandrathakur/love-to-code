@@ -10,5 +10,5 @@ function countVowels(str) {
   return countVowel;
 }
 
-const string = "padijahfpihefheiujlz";
+const string = "padijahfIihEfheiujlz";
 console.log(countVowels(string)); // Expected output: Vowel count
