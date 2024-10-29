@@ -1,12 +1,10 @@
 function countVowels(str) {
-  let countVowel = 0; // Declare count inside the function
-  const vowels = "aeiouAEIOU"; // Define vowels inside the function
+  let countVowel = 0;
+  const vowels = "aeiouAEIOU";
 
-  for (let i = 0; i <= str.length - 1; i++) { // Corrected for loop syntax
-    if (vowels.includes(str[i])) { // Corrected if statement syntax
+  for (let i = 0; i <= str.length - 1; i++) {
+    if (vowels.includes(str[i])) {
       countVowel++;
-    } else {
-      console.log("Something unusual happened!");
     }
   }
   return countVowel;
