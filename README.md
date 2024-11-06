@@ -4,7 +4,7 @@ Welcome to my coding playground! 🚀 This repository is where I document my cod
 
 ## About Me
 
-Hi there! 👋 I'm [Your Name], a passionate developer based in [Your Location]. My love for coding knows no bounds, and I'm constantly learning and growing. Connect with me on LinkedIn to stay updated!
+Hi there! 👋 I'm Pratik chandra thakur, a passionate developer based in Nepal. My love for coding knows no bounds, and I'm constantly learning and growing. Connect with me on LinkedIn to stay updated!
 
 ## Repository Structure
 
