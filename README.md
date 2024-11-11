@@ -23,6 +23,6 @@ Hi there! 👋 I'm Pratik chandra thakur, a passionate developer based in Nepal.
 Connect with me on social media:
 - [LinkedIn](https://www.linkedin.com/in/pratik-chandra-thakur-739325269/) 
 - Twitter
-- GitHub
+- [GitHub](https://github.com/Pratikchandrathakur/love-to-code)
 
 Happy coding! 🎉
