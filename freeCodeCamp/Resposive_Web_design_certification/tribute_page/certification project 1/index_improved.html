@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeCodeCamp Survey Form</title>
+</head>
+<body style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; line-height: 1.6;">
+    <header>
+        <h1 id="title" style="text-align: center; color: #333; border-bottom: 2px solid #0077cc; padding-bottom: 10px;">Survey Form</h1>
+        <p id="description" style="text-align: center; color: #666; font-style: italic;">
+            Thank you for taking the time to help us improve the platform.
+        </p>
+    </header>
+
+    <main>
+        <form id="survey-form" style="display: grid; gap: 15px;">
+            <fieldset style="border: 1px solid #ddd; padding: 15px; border-radius: 5px;">
+                <legend>Personal Information</legend>
+                <div style="display: grid; gap: 10px;">
+                    <label for="name" style="display: block;">
+                        Name <span style="color: red;">*</span>
+                        <input id="name" name="name" type="text" required 
+                               placeholder="Enter Your Name" 
+                               style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                    </label>
+
+                    <label for="email" style="display: block;">
+                        Email <span style="color: red;">*</span>
+                        <input id="email" name="email" type="email" required 
+                               placeholder="Enter your email" 
+                               style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                    </label>
+
+                    <label for="number" style="display: block;">
+                        Age (optional)
+                        <input id="number" name="age" type="number" min="0" max="100" 
+                               placeholder="Age" 
+                               style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset style="border: 1px solid #ddd; padding: 15px; border-radius: 5px;">
+                <legend>Feedback Details</legend>
+                <div style="display: grid; gap: 10px;">
+                    <label for="role-dropdown">
+                        Which option best describes your current role?
+                        <select id="role-dropdown" name="role" 
+                                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                            <option value="" disabled selected>Select Your Role</option>
+                            <option value="student">Student</option>
+                            <option value="part-time">Part-time Job</option>
+                            <option value="full-time">Full-time Job</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </label>
+
+                    <div>
+                        <p style="margin-bottom: 10px;">Would you recommend freeCodeCamp to a friend?</p>
+                        <div style="display: flex; gap: 15px;">
+                            <label>
+                                <input type="radio" name="recommendation" value="definitely">
+                                Definitely
+                            </label>
+                            <label>
+                                <input type="radio" name="recommendation" value="maybe">
+                                Maybe
+                            </label>
+                            <label>
+                                <input type="radio" name="recommendation" value="not-sure">
+                                Not Sure
+                            </label>
+                        </div>
+                    </div>
+
+                    <label for="feature-dropdown">
+                        What is your favorite feature of freeCodeCamp?
+                        <select id="feature-dropdown" name="favorite-feature" 
+                                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="projects">Projects</option>
+                            <option value="curriculum">Curriculum</option>
+                            <option value="community">Community</option>
+                            <option value="certifications">Certifications</option>
+                        </select>
+                    </label>
+
+                    <div>
+                        <p style="margin-bottom: 10px;">What would you like to see improved? (Check all that apply)</p>
+                        <div style="display: grid; gap: 5px;">
+                            <label>
+                                <input type="checkbox" name="improvements" value="frontend">
+                                Front-end Projects
+                            </label>
+                            <label>
+                                <input type="checkbox" name="improvements" value="backend">
+                                Back-end Projects
+                            </label>
+                            <label>
+                                <input type="checkbox" name="improvements" value="ui">
+                                User Interface
+                            </label>
+                            <label>
+                                <input type="checkbox" name="improvements" value="resources">
+                                Learning Resources
+                            </label>
+                        </div>
+                    </div>
+
+                    <label for="comments">
+                        Any comments or suggestions?
+                        <textarea id="comments" name="comments" rows="4" 
+                                  placeholder="Enter your comments here" 
+                                  style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+                    </label>
+                </div>
+            </fieldset>
+
+            <div style="text-align: center;">
+                <button type="submit" id="submit" 
+                        style="background-color: #0077cc; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </main>
+
+    <footer style="text-align: center; margin-top: 20px; color: #666; font-size: 0.8em;">
+        <p>© 2024 FreeCodeCamp Survey</p>
+    </footer>
+</body>
+</html>
