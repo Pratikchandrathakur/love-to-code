@@ -19,3 +19,19 @@ button {
     border: none;
     font-weight: bold;
 }
+
+
+/* STYLE THE LIST ACCORDING TO THE DESIGN */
+ul {
+    list-style: none;
+    margin: 0;
+    padding:0;     
+}
+
+li {
+    margin-top:4px;
+}
+
+a {
+color: #5f9341;
+}
