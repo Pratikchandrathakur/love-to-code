@@ -1,0 +1,162 @@
+{
+  "name": "github-productivity-monitor",
+  "displayName": "GitHub Productivity Monitor",
+  "description": "Automatically track and monitor your coding activities with GitHub integration",
+  "version": "1.0.0",
+  "publisher": "pratikchandrathakur",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other",
+    "Analytics",
+    "GitHub"
+  ],
+  "keywords": [
+    "github",
+    "productivity",
+    "tracking",
+    "analytics",
+    "monitoring"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "githubProductivity.authenticate",
+        "title": "Authenticate with GitHub",
+        "category": "GitHub Productivity"
+      },
+      {
+        "command": "githubProductivity.startTracking",
+        "title": "Start Activity Tracking",
+        "category": "GitHub Productivity"
+      },
+      {
+        "command": "githubProductivity.stopTracking",
+        "title": "Stop Activity Tracking",
+        "category": "GitHub Productivity"
+      },
+      {
+        "command": "githubProductivity.viewStats",
+        "title": "View Productivity Stats",
+        "category": "GitHub Productivity"
+      },
+      {
+        "command": "githubProductivity.configureSettings",
+        "title": "Configure Settings",
+        "category": "GitHub Productivity"
+      }
+    ],
+    "configuration": {
+      "title": "GitHub Productivity Monitor",
+      "properties": {
+        "githubProductivity.autoCommitInterval": {
+          "type": "number",
+          "default": 30,
+          "minimum": 5,
+          "maximum": 1440,
+          "description": "Minutes between automatic commits (5-1440 minutes)"
+        },
+        "githubProductivity.trackTerminal": {
+          "type": "boolean",
+          "default": true,
+          "description": "Track terminal commands and activities"
+        },
+        "githubProductivity.trackDebugging": {
+          "type": "boolean",
+          "default": true,
+          "description": "Track debugging sessions and breakpoints"
+        },
+        "githubProductivity.enableMotivationalMessages": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show motivational messages and progress updates"
+        },
+        "githubProductivity.dataRetentionDays": {
+          "type": "number",
+          "default": 30,
+          "minimum": 1,
+          "maximum": 365,
+          "description": "Number of days to retain activity data locally"
+        },
+        "githubProductivity.enableEncryption": {
+          "type": "boolean",
+          "default": true,
+          "description": "Encrypt sensitive data stored locally"
+        },
+        "githubProductivity.repositoryName": {
+          "type": "string",
+          "default": "productivity-tracking",
+          "description": "Name of the GitHub repository for activity tracking"
+        }
+      }
+    },
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "githubProductivity.authenticate",
+          "when": "true"
+        },
+        {
+          "command": "githubProductivity.startTracking",
+          "when": "true"
+        },
+        {
+          "command": "githubProductivity.stopTracking",
+          "when": "true"
+        },
+        {
+          "command": "githubProductivity.viewStats",
+          "when": "true"
+        },
+        {
+          "command": "githubProductivity.configureSettings",
+          "when": "true"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "16.x",
+    "@types/mocha": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.1.0",
+    "typescript": "^4.9.4",
+    "ts-loader": "^9.4.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "@vscode/test-electron": "^2.2.0",
+    "@vscode/vsce": "^2.15.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "crypto-js": "^4.1.1",
+    "node-fetch": "^3.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pratikchandrathakur/love-to-code.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pratikchandrathakur/love-to-code/issues"
+  },
+  "homepage": "https://github.com/Pratikchandrathakur/love-to-code#readme"
+}
