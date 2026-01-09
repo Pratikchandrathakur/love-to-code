@@ -71,5 +71,9 @@ address {
 }
 
 a {
-  color:black;
+  color: black;
+}
+
+a:visited{
+  color:grey;
 }
