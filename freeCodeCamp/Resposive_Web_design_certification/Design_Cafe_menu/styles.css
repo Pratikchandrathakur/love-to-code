@@ -7,7 +7,7 @@ body {
 h1 {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom:15px;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -29,6 +29,13 @@ h1, h2, p {
   margin-right: auto;
   padding: 20px;
   max-width: 500px;
+}
+
+img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+
 }
 
 hr {
@@ -70,6 +77,10 @@ footer {
 
 address {
   font-style: normal;
+}
+
+.address {
+  margin-bottom: 5px;
 }
 
 a {
