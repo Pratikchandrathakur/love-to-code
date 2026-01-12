@@ -1,12 +1,9 @@
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-shift = 5
+def caesar(text, shift):
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    shifted_alphabet = alphabet[shift:] + alphabet[:shift]
+    translation_table = str.maketrans(alphabet, shifted_alphabet)
+    return text.translate(translation_table)
 
-# Build the shifted alphabet
-shifted_alphabet = alphabet[shift:] + alphabet[:shift]
-
-# Create the translation table
-translation_table = str.maketrans(alphabet, shifted_alphabet)
-#Input is stored on the text variable
-text = 'hello world'
-#encrpted text will be stored on the encrypted variable using the translate function it chnage the value to mapped table value.
-encrypted_text=text.translate(translation_table)
+# Step 12: Test the function
+encrypted_text = caesar("freeCodeCamp", 3)
+print(encrypted_text)
