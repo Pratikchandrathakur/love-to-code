@@ -1,6 +1,7 @@
 # Love to Code 💻
 
-Welcome to my coding playground! 🚀 This repository is where I document my coding journey, experiment with different technologies, and showcase my practice codes. Whether it's a simple algorithm, a web app, or a fun side project, you'll find it all here.
+ Welcome to my coding playground! 
+This repository is where I document my coding journey, experiment with different technologies, and showcase my practice codes. Whether it's a simple algorithm, a web app, or a fun side project, you'll find it all here🚀 .
 
 ## About Me
 
