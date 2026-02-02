@@ -1,7 +1,11 @@
+
+
 body{
-font:Arial,Sans-serif;
+font:Arial,sans-serif;
 background-color:rosybrown;
 }
 .business-card{
   background-color:brown;
+  width:300px;
+  padding:20px;
 }
