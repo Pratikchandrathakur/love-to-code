@@ -1,0 +1,29 @@
+/* Remove default link decorations */
+.sub-item-link {
+  text-decoration: none;
+}
+
+/* Unvisited link color */
+.sub-item-link:link {
+  color: teal;
+}
+
+/* Visited link color */
+.sub-item-link:visited {
+  color: purple;
+}
+
+/* Hover link color */
+.sub-item-link:hover {
+  color: orange;
+}
+
+/* Focus outline */
+.sub-item-link:focus {
+  outline: 2px solid red;
+}
+
+/* Active (clicked) link color */
+.sub-item-link:active {
+  color: green;
+}
