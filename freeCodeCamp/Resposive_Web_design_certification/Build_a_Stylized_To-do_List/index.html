@@ -1,22 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Styled To-Do List</title>
+  <meta charset="UTF-8">
+  <title>Stylized To-Do List</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <ul class="todo-list">
-        <li>mango
-            <input type="checkbox" >
-        </li>
+  <ul class="todo-list">
+    <li>
+      <input type="checkbox" id="task1">
+      <label for="task1">Task One</label>
+      <ul class="sub-item">
         <li>
-            <label for=""></label>
-            apple</li>
-        <li>lichi</li>
-        <li>Strawberry</li>
-        </ul>
+          <a class="sub-item-link" href="https://example.com" target="_blank">Example Link 1</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <input type="checkbox" id="task2">
+      <label for="task2">Task Two</label>
+      <ul class="sub-item">
+        <li>
+          <a class="sub-item-link" href="https://freecodecamp.org" target="_blank">FreeCodeCamp</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <input type="checkbox" id="task3">
+      <label for="task3">Task Three</label>
+      <ul class="sub-item">
+        <li>
+          <a class="sub-item-link" href="https://developer.mozilla.org" target="_blank">MDN Docs</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <input type="checkbox" id="task4">
+      <label for="task4">Task Four</label>
+      <ul class="sub-item">
+        <li>
+          <a class="sub-item-link" href="https://w3schools.com" target="_blank">W3Schools</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
 </body>
-
 </html>
