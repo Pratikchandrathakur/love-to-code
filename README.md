@@ -22,7 +22,7 @@ Hi there! 👋 I'm Pratik Chandra Thakur, a passionate developer based in Nepal.
 ## Let's Connect!
 
 Connect with me on social media:
-- [LinkedIn](https://www.linkedin.com/in/pratik-chandra-thakur-739325269/) 
+- [LinkedIn](https://www.linkedin.com/in/pratikchandrathakur) 
 - Twitter
 - [GitHub](https://github.com/Pratikchandrathakur/love-to-code)
 
